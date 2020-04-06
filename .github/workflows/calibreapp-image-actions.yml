@@ -1,5 +1,8 @@
 name: Compress Images
-on: push
+on:
+  push:
+    branches-ignore:
+      - '**'
 
 jobs:
   build:
