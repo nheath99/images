@@ -1,4 +1,5 @@
 name: Compress Images
+on: push
 
 jobs:
   build:
